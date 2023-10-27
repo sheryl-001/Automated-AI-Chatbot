@@ -1,0 +1,65 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "Hello", "Good day"],
+            "responses": ["Hello! How can I assist you with your admission inquiry?"]
+        },
+        {
+            "tag": "eligibility",
+            "patterns": ["Am I eligible for admission?", "Who can get admission?", "What are the admission criteria?", "Eligibility Criteria"],
+            "responses": [ "- Passed the 12th (intermediate) or equivalent examination from a recognized board in PCM",
+                          "- Minimum percentage: 50% for general candidates, 45% for backward class, 40% for MBC & DNC, and 35% for SC/ST/SCA candidates.",
+                          "- Minimum entrance exam score: 150 out of 250 marks."]
+        },
+        {
+            "tag": "admission_process",
+            "patterns": ["Tell me about the admission process", "How can I apply for admission?", "Walk me through the admission procedure"],
+            "responses": [ "Filling out the admission application form available on the official college website at abcengineeringcollege/admissions", 
+			   "Submitting the application and required documents"
+			 ]
+        },
+        {
+            "tag": "documents_required",
+            "patterns": ["What documents are required for admission?", "List of documents for admission", "Which certificates do I need for admission?", "Documents Required"],
+            "responses": [
+                          "12th (intermediate) or equivalent mark sheets and certificates, Domicile certificate (if applicable), Entrance exam scorecard"
+			 ]
+        },
+        {
+            "tag": "tuition_fees",
+            "patterns": ["Tell me about tuition fees", "What is the cost of attendance?", "How much is the tuition fee?", "Tuition fee"],
+            "responses": ["Depends on Aided/SS/Management Quota. Please contact accounts office for further enquiry."]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": ["Are scholarships available?", "How can I apply for scholarships?", "Tell me about financial aid"],
+            "responses": ["Scholarships are available to eligible students. For further queries on scholarships, please call @ 9898989898."]
+        },
+        {
+            "tag": "admission_timeline",
+            "patterns": ["When will I receive an admission decision?", "What is the admission notification date?", "Admission timeline"],
+            "responses": ["Admissions decisions are typically sent out by the end of this month."]
+        },
+        {
+            "tag": "hostel_facilities",
+            "patterns": ["Are hostel facilities available?", "Tell me about on-campus housing", "Where can I stay on campus?"],
+            "responses": ["Yes, hostel facilities are available for students. Please inquire with the college for details about on-campus housing."]
+        },
+        {
+            "tag": "credit_transfer",
+            "patterns": ["Can I transfer credits from another college or university?", "Is credit transfer possible?"],
+            "responses": ["Credit transfer from another college or university is possible. Please contact the college for specific details and requirements."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Appreciate your help"],
+            "responses": ["You're welcome! If you have more questions or need further assistance, feel free to ask."]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["I'm sorry, I can't assist with that at the moment. Please ask another question."]
+        }
+    ]
+}
